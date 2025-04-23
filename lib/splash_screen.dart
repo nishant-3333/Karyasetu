@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Image.asset('assets/images/app_logo.png', width: 100,),
             const SizedBox(height: 20,),
-            buildText('Everything Tasks', kWhiteColor, textBold,
+            buildText('Karya Setu', kWhiteColor, textBold,
                 FontWeight.w600, TextAlign.center, TextOverflow.clip),
             const SizedBox(
               height: 10,

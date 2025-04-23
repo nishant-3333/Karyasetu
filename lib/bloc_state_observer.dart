@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class BlocStateOberver extends BlocObserver{
+class BlocStateObserver extends BlocObserver{
   @override
   void onCreate(BlocBase bloc) {
     if (kDebugMode) {
